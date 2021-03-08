@@ -149,6 +149,8 @@ img {
     grid-column: column-start 1 / column-end 3;
     padding-left: 10rem;
     padding-top: 10rem;
+    animation: fadeIn;
+    animation-duration: 1s;
     h1 {
       color: $color-tertiary;
     }
@@ -261,6 +263,8 @@ GALLERY
 */
 .gallery {
   .slider__wrapper {
+    animation: fadeIn;
+    animation-duration: 1s;
     grid-column: column-start 1 / full-inner-end;
     position: relative;
     top: 7rem;
@@ -560,7 +564,7 @@ FOOTER
     &__images {
       grid-column: full-inner-start / column-end 3;
       .about__image--pattern {
-        right: 4rem;
+        display: none;
       }
     }
   }

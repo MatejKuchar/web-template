@@ -222,7 +222,9 @@ img {
   .header__text-box {
     grid-column: column-start 1 / column-end 3;
     padding-left: 10rem;
-    padding-top: 10rem; }
+    padding-top: 10rem;
+    animation: fadeIn;
+    animation-duration: 1s; }
     .header__text-box h1 {
       color: #476667; }
     .header__text-box p {
@@ -311,6 +313,8 @@ ABOUT
 GALLERY
 */
 .gallery .slider__wrapper {
+  animation: fadeIn;
+  animation-duration: 1s;
   grid-column: column-start 1 / full-inner-end;
   position: relative;
   top: 7rem; }
@@ -547,7 +551,7 @@ FOOTER
   .about__images {
     grid-column: full-inner-start / column-end 3; }
     .about__images .about__image--pattern {
-      right: 4rem; } }
+      display: none; } }
 
 @media only screen and (max-width: 1300px) {
   .header .nav__container nav {
