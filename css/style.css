@@ -569,6 +569,15 @@ FOOTER
     .header__images {
       grid-column: column-start 5 / column-end 6;
       height: 85%; }
+      .header__images img:nth-child(1) {
+        bottom: 20rem;
+        right: 100%; }
+      .header__images img:nth-child(2) {
+        bottom: 22rem;
+        right: 0%; }
+      .header__images img:nth-child(3) {
+        bottom: 19%;
+        right: 50%; }
   .about__info ul {
     margin: 1rem 0; }
   .about__image--pattern {

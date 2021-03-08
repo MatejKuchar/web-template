@@ -598,6 +598,21 @@ FOOTER
     &__images {
       grid-column: column-start 5 / column-end 6;
       height: 85%;
+
+      & img {
+        &:nth-child(1) {
+          bottom: 20rem;
+          right: 100%;
+        }
+        &:nth-child(2) {
+          bottom: 22rem;
+          right: 0%;
+        }
+        &:nth-child(3) {
+          bottom: 19%;
+          right: 50%;
+        }
+      }
     }
   }
   .about {
