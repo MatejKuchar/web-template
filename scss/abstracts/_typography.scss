@@ -1,0 +1,53 @@
+.heading-primary {
+  font-size: 7.2rem;
+  font-weight: normal;
+  font-style: normal;
+  @include respond(tab-land) {
+    font-size: 6rem;
+  }
+  @include respond(tab-port) {
+    font-size: 5rem;
+  }
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+}
+.heading-secondary {
+  font-size: 6rem;
+  font-weight: normal;
+  font-style: normal;
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+  @include respond(tab-port) {
+    font-size: 4rem;
+  }
+  @include respond(phone) {
+    font-size: 3rem;
+  }
+}
+.category {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @include respond(tab-land) {
+    font-size: 1.6rem;
+  }
+}
+.text-1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  @include respond(tab-port) {
+    font-size: 1.6rem;
+  }
+}
+.text-2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  @include respond(tab-port) {
+    font-size: 1.4rem;
+  }
+}
